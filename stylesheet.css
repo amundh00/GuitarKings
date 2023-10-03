@@ -51,13 +51,11 @@ header {
 
   .reviewbio {
     border-radius: 50%;
-    height: 350px;
+    height: 450px;
+    padding: 50px;
+    
   }
-
-  .reviewbio2 {
-    border-radius: 50%;
-    height: 350px;
-  }
+  
   .handmadeguitars {
     background-image: url(/images/home-header.jpg);
     height: 50vh;

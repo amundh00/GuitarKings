@@ -38,6 +38,7 @@ header {
 
   footer {
     text-align: center;
+    padding: 100px;
   }
   
   .selling-points__images {
@@ -80,6 +81,7 @@ header {
     font-size: 2rem;
 }
 
+
 a {
     color: white;
     text-decoration: none;
@@ -97,5 +99,22 @@ a {
 }
 
 h1{
-    font-size: 4rem;
+    font-size: 3.5rem;
+}
+
+h2{
+  font-size: 2rem;
+  text-align: center;
+}
+
+.contactform{
+  font-size: 20px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+label{
+  text-align: left;
+  display: block;
+  margin-bottom: 5px;
 }

@@ -1,7 +1,7 @@
 /* styles.css */
 @font-face {
-    font-family: "Boots And Spurs";
-    src: url("./Fonts/BootsAndSpurs\ \(1\).ttf") format("truetype");
+    font-family: "boots";
+    src: url(/Fonts/BootsAndSpurs.ttf) format("truetype");
 }
 
 body {
@@ -10,8 +10,9 @@ body {
 
 h1,h2,
 .logo {
-    font-family: "Boots And Spurs", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "boots", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 
 .product-list h2 {
     font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
@@ -37,18 +38,9 @@ header {
   footer {
     text-align: center;
   }
-
-  .welcome {
-    background-image: url("../images/home-header.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y: bottom;
-    min-height: 70vh;
-  }
   
   .selling-points__images {
-    border-radius: 100px;
+    border-radius: 75px;
   }
   
   .review__images {
@@ -64,3 +56,43 @@ header {
     border-radius: 50%;
     height: 350px;
   }
+  .handmadeguitars {
+    background-image: url(/images/home-header.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: bottom;
+  }
+
+  .fa-solid {
+    color: white;
+    right: 50px;
+    top: 45px;
+    font-size: 25px;
+    position: absolute;
+  }
+
+.logo {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.viewguitars{
+    background-color: black;
+    padding: 40px;
+    border-radius: 15px;
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    font-size: 1.5rem;
+}
+
+h1{
+    font-size: 4rem;
+}

@@ -54,9 +54,14 @@ header {
     border-radius: 50%;
     height: 450px;
     padding: 50px;
-    
   }
   
+  .people{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .handmadeguitars {
     background-image: url(/images/home-header.jpg);
     height: 50vh;

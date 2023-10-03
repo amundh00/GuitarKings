@@ -42,6 +42,7 @@ header {
   
   .selling-points__images {
     border-radius: 75px;
+    width: 100%;
   }
   
   .review__images {

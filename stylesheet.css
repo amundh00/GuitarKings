@@ -65,7 +65,7 @@ nav a{
 
   .reviewbio {
     border-radius: 50%;
-    height: 450px;
+    height: 300px;
     padding: 50px;
   }
   
@@ -169,4 +169,10 @@ input, textarea{
 input:focus, textarea:focus {
   border-color: blue;
   background-color: pink;
+}
+
+select{
+  width: 200px;
+  height: 25px;
+  font-size: 1.2rem;
 }

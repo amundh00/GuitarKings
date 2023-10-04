@@ -45,6 +45,10 @@ nav a{
     background-color: grey; /* Replace with your desired color code or name */
 }
 
+.ourguitars{
+  margin-top: 75px;
+}
+
 .featured--products {
     background-color: #fbfbfb;
   }
@@ -54,9 +58,16 @@ nav a{
     padding: 100px;
   }
   
+  .imagecont{
+    width: 2000px;
+    height: 500px;
+    overflow: hidden;
+    }
+  
   .selling-points__images {
-    border-radius: 75px;
+    height: 100%;
     width: 100%;
+    object-fit: cover;
   }
   
   .review__images {
@@ -175,4 +186,10 @@ select{
   width: 200px;
   height: 25px;
   font-size: 1.2rem;
+}
+
+.guitarstats{
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 75px;
 }
